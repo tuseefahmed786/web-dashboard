@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/web-dashboard/static/css/main.3470fda3.css",
-    "main.js": "/web-dashboard/static/js/main.362ec4c4.js",
-    "static/js/787.28cb0dcd.chunk.js": "/web-dashboard/static/js/787.28cb0dcd.chunk.js",
-    "static/media/Grouppic.png": "/web-dashboard/static/media/Grouppic.a4de0bb3dd3be247fa79.png",
-    "static/media/logo.svg": "/web-dashboard/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/web-dashboard/index.html",
-    "main.3470fda3.css.map": "/web-dashboard/static/css/main.3470fda3.css.map",
-    "main.362ec4c4.js.map": "/web-dashboard/static/js/main.362ec4c4.js.map",
-    "787.28cb0dcd.chunk.js.map": "/web-dashboard/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/web-dashboard-vik/static/css/main.f810913d.css",
+    "main.js": "/web-dashboard-vik/static/js/main.8bd84475.js",
+    "static/js/787.28cb0dcd.chunk.js": "/web-dashboard-vik/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Grouppic.png": "/web-dashboard-vik/static/media/Grouppic.a4de0bb3dd3be247fa79.png",
+    "static/media/logo.svg": "/web-dashboard-vik/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/web-dashboard-vik/index.html",
+    "main.f810913d.css.map": "/web-dashboard-vik/static/css/main.f810913d.css.map",
+    "main.8bd84475.js.map": "/web-dashboard-vik/static/js/main.8bd84475.js.map",
+    "787.28cb0dcd.chunk.js.map": "/web-dashboard-vik/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3470fda3.css",
-    "static/js/main.362ec4c4.js"
+    "static/css/main.f810913d.css",
+    "static/js/main.8bd84475.js"
   ]
 }
