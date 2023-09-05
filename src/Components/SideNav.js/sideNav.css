@@ -138,6 +138,7 @@ width: 100%;
 
 }
 
+
 @media screen and (max-width: 1350px) {
     .navigation { 
 width: 90px;
@@ -164,3 +165,49 @@ width: 100%;
     width: 100%;
 }
 }
+
+@media screen and (max-width: 540px) {
+  .Apps{
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+  .profile-img{
+    width: 40px!important;
+  }
+  .profile-img img{
+width: 100%;
+  }
+  .navigation{
+  width: initial!important;
+  flex-direction: row!important;
+  padding: 0px 9px;
+  }
+  .mid-components {
+    width: 100%!important;
+    margin: initial!important;
+  }
+  .navigation ul{
+    width: initial!important;
+    display: flex;
+  }
+  .navigation ul li a .icon{
+    min-width: 35px!important;
+  }
+  .username-message h6{
+font-size: 14px!important;
+  }
+  
+  .userbox-name h1{
+    font-size: 18px!important;
+  }
+  .username-message p, .user-time-readornot p{
+    font-size: 10px!important;
+  }
+  .Apps{
+    padding: 14px!important;
+
+  }
+  .exiticon-align {
+    width: 30px!important;
+}
+  }
