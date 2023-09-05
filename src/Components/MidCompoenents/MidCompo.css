@@ -1,0 +1,85 @@
+input[type="search"] {
+    width: 100%;
+    border: none;
+    /* width: 288px; */
+    height: 60px;
+    padding-left: 59px;
+    font-size: 18px;
+    /* padding: 14px 28px; */
+    font-weight: 500;
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 0px 4px 5px 2px rgba(121, 197, 239, 0.38);
+}
+.mid-components {
+    width: 25vw;
+   margin: 0px 25px;
+}
+
+.src-align {
+    position: absolute;
+    z-index: 4;
+    top: 12px;
+    left: 12px;
+    width: 32px;
+}
+
+.src-align img{
+    width: 100%;
+
+}
+
+/* User Group # People */
+.userbox-name h1{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding-left: 9px;   
+}
+.user-innercontent{
+    display: flex;
+    flex-direction: column;
+
+}
+.user-custom {
+    font-weight: 500;
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 0px 4px 5px 2px rgba(121, 197, 239, 0.38);
+    padding: 9px 15px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.user-details{
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid rgba(180, 171, 171, 0.66);
+padding-top: 12px;
+}
+
+.username-message {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.username-message p , .user-time-readornot p{
+/* font-family: Roboto; */
+font-size: 12px;
+font-weight: 300;
+letter-spacing: 0.01em;
+text-align: left;
+color: rgba(124, 124, 124, 1);
+
+}
+.username-message h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+.username-message p {
+    color: rgba(48, 48, 48, 1);
+}
+.user-time-readornot {
+    position: absolute;
+    right: 0;
+}

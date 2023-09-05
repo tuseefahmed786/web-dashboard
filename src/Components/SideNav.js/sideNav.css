@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(121, 197, 239, 0.38);
+}
+
+.navigation {
+  width: 130px;
+  background: rgba(110, 0, 255, 1);;
+  /* border-left: 10px solid rgba(110, 0, 255, 1);; */
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.05);
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around
+}
+
+.navigation.active {
+  width: 300px;
+  border-radius: 20px;
+}
+
+
+
+.navigation.active .toggle::before {
+  transform: translateY(0px) rotate(-405deg);
+}
+
+.navigation.active .toggle::after {
+  transform: translateY(0px) rotate(225deg);
+}
+
+.navigation ul {
+  
+  width: 100%;
+}
+
+.navigation ul li {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  padding: 12px 0px;
+}
+ .navigation ul li:hover {
+    background: rgba(97, 45, 209, 0.9);
+
+}
+
+.navigation ul li:nth-child(2) {
+  background: rgba(97, 45, 209, 0.9);
+}
+.search-bar{
+    position: relative;
+}
+/*
+.navigation ul li:not(:first-child):hover::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border-bottom-right-radius: 20px;
+  box-shadow: 7.5px 7.5px 0 7.5px #fff;
+}
+
+.navigation ul li:not(:first-child):hover::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border-top-right-radius: 20px;
+  box-shadow: 7.5px -7.5px 0 7.5px #fff;
+}
+
+.navigation ul li a {
+  position: relative;
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navigation ul li:hover:not(:first-child) a {
+  color: #365fa1;
+} */
+
+.navigation ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  /* height: 60px; */
+  /* line-height: 80px; */
+  text-align: center;
+}
+
+.navigation ul li a .icon ion-icon {
+  font-size: 1.75rem;
+}
+
+.navigation ul li a .title {
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  height: 60px;
+  line-height: 60px;
+  text-align: start;
+  white-space: nowrap;
+}
+
+.sideNav-icon-align{
+    width: 58px;
+    height: 58px;
+}
+
+
+.user-pic-align img{
+width: 100%;
+}
+.sideNav-icon-align img{
+    width: 100%;
+
+}
+
+@media screen and (max-width: 1350px) {
+    .navigation { 
+width: 90px;
+
+  }
+  .mid-components {
+width: 350px!important;  
+}
+.icon img{
+width: 42%;
+}
+
+.profile-img{
+    width: 70%;
+}
+
+.profile-img img{
+width: 100%;
+}
+.exiticon-align{
+    width: 37px;
+}
+.exiticon-align img{
+    width: 100%;
+}
+}
